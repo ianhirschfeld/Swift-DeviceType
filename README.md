@@ -27,10 +27,10 @@ Below is a list of device models that are recognized. Please note that testing o
 ```swift
 iPodTouch5
 iPhone4
-iPhone4S
+iPhone4s
 iPhone5
-iPhone5C
-iPhone5S
+iPhone5c
+iPhone5s
 iPhone6
 iPhone6Plus
 iPad2

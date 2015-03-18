@@ -12,10 +12,10 @@ public enum DeviceType {
 
   case iPodTouch5
   case iPhone4
-  case iPhone4S
+  case iPhone4s
   case iPhone5
-  case iPhone5C
-  case iPhone5S
+  case iPhone5c
+  case iPhone5s
   case iPhone6
   case iPhone6Plus
   case iPad2
@@ -51,10 +51,10 @@ public enum DeviceType {
     switch identifier {
     case "iPod5,1":                                 self = iPodTouch5
     case "iPhone3,1", "iPhone3,2", "iPhone3,3":     self = iPhone4
-    case "iPhone4,1":                               self = iPhone4S
+    case "iPhone4,1":                               self = iPhone4s
     case "iPhone5,1", "iPhone5,2":                  self = iPhone5
-    case "iPhone5,3", "iPhone5,4":                  self = iPhone5C
-    case "iPhone6,1", "iPhone6,2":                  self = iPhone5S
+    case "iPhone5,3", "iPhone5,4":                  self = iPhone5c
+    case "iPhone6,1", "iPhone6,2":                  self = iPhone5s
     case "iPhone7,2":                               self = iPhone6
     case "iPhone7,1":                               self = iPhone6Plus
     case "iPad2,1", "iPad2,2", "iPad2,3", "iPad2,4":self = iPad2
@@ -78,10 +78,10 @@ extension DeviceType: Printable {
     switch self {
     case .iPodTouch5:                           return "iPod Touch 5"
     case .iPhone4:                              return "iPhone 4"
-    case .iPhone4S:                             return "iPhone 4S"
+    case .iPhone4s:                             return "iPhone 4s"
     case .iPhone5:                              return "iPhone 5"
-    case .iPhone5C:                             return "iPhone 5C"
-    case .iPhone5S:                             return "iPhone 5S"
+    case .iPhone5c:                             return "iPhone 5c"
+    case .iPhone5s:                             return "iPhone 5s"
     case .iPhone6:                              return "iPhone 6"
     case .iPhone6Plus:                          return "iPhone 6 Plus"
     case .iPad2:                                return "iPad 2"
